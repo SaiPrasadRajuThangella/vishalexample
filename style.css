@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(68, 224, 224);
+    color: red;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.cool{
+    position: relative;
+}
+.ss{
+    background-color: aquamarine;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    width: 100%;
+}
+.kk{
+    position: fixed;
+
+    
+}
+.en{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.en p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+}
+.work p{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.sky{
+    padding-left: 600px;
+}
+.sec{
+    text-align: center;
+}
+.sec h1{
+    text-align: center;
+    position: fixed;
+    top: 300px;
+    font-size: 100px;
+    z-index: -1;
+    color: red;
+
+}
+.dic video{
+    width: 25%;
+    position: absolute;
+    top: 350px;
+    right: 250px;
+    z-index: +1;
+  
+}
+.play p{
+    z-index: +1;
+    width: 150px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid red;
+    position: absolute;
+    top: 500px;
+    right: 550px;
+    text-align: center;
+    padding-top: 70px;
+    color: red;
+}
+.play p:hover{
+    background-color: white;   
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    width: 25%;
+    position: absolute;
+    top: 850px;
+    right: 550px;
+    z-index: +1;
+}
+.apple video{
+    width: 400px;
+    height: auto;
+}
+.studio p{
+    width: 500px;
+    height: auto;
+    text-align: left;
+    padding-top: 140px;
+    font-size: 30px;
+    color: red;
+    z-index: +2;
+    background-color: aliceblue;
+}
+.pro p{
+    padding-left: 400px;
+    font-size: 80px;
+    position: absolute;
+    top: 1800px; 
+}
+
+
+.sport video{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 2100px;
+    left: 150px; 
+}
+.koti video{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 2100px; 
+    right: 150px;
+}
+
+.musicbes video{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 2300px;
+    left: 150px; 
+
+
+}
+.familiprix video{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 2300px; 
+    right: 150px;
+
+}
+
+.landrstudio{
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 2600px; 
+}
